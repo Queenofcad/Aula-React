@@ -31,7 +31,7 @@ function App(props) {
         <S.Input className="usuarioInput" placeholder="Usuário" value={usuario} onChange={e => setUsuario(e.target.value)} />
         <S.Button type="button" onClick={handlePesquisa}>Pesquisar</S.Button>
       </S.Content>
-      { erro ? <S.ErrorMsg>Ocorreu um erro. Tente novamente.</S.ErrorMsg> : '' }
+      { erro ? <S.ErrorMsg> Ocorreu um erro. Tente novamente. </S.ErrorMsg> : '' }
     </S.HomeContainer>
   );
 }
